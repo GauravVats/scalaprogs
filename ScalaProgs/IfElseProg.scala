@@ -21,9 +21,11 @@ object IfElseProg {
     else
       println("And Condition False")
 
-    if (x == 30 || y == 20)
-      println("OR Condition True")
-    else
+    if (x == 30 || y == 10)
       println("OR Condition False")
+    else if(x == 18 || y == 10)
+      println("OR Condition True")
+      else
+         println("OR Condition False")
   }
 }
